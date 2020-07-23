@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/app.js"></script>
+    <title>49-52 Assignment</title>
+</head>
+<body>
+    <form onsubmit="form_submit(); return false">
+        <label for="">Name</label>
+        <input type="text" name="" id="username">
+        <br>
+        <label for="">Phone#</label>
+        <input type="text" name="" id="ph_no">
+        <br>
+        <label for="">Email</label>
+        <input type="text" name="" id="email">
+        <br>
+        <button id="submit">Submit</button>
+        <!-- <input type="submit" name="" id="submit" onclick="form_submit()"> -->
+    </form>
+    <h1 id="info"></h1>
+    <p id="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur magni ullam facere vero laborum amet quae nulla vel ipsa distinctio?<a id="readmore" href="#" onclick="read_more()">Read More..</a></p>
+
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td id="firstName">Ahsan</td>
+            <td id="firstEducation">Grad</td>
+            <td><button id="edit_button" onclick="editkro1();">Edit</button></td>
+            <td><button id="delete_button" onclick="deletekro(this)">Delete</button></td>
+        </tr>
+        <input type="text" name="" id="editfirstName" hidden>
+        <input type="text" name="" id="editfirstEducation" hidden>
+        <button id="updatefirst" onclick="updatefirst()" hidden>Update</button>
+        <tr>
+            <td>2</td>
+            <td id="secondName">Nash</td>
+            <td id="secondEducation">Master</td>
+            <td><button id="edit_button" onclick="editkro2();">Edit</button></td>
+            <td><button id="delete_button" onclick="deletekro(this);">Delete</button></td>
+        </tr>
+    </table>
+</body>
+</html>

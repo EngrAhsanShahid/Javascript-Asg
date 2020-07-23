@@ -1,0 +1,183 @@
+*{
+    text-align: center;
+}
+a{
+    line-height: 30px;
+    color: blueviolet;
+}
+.smartHead{
+    font-size: 3em;
+}
+.mobile{
+    width: 150px;
+    height: 180px;
+    margin-left: 50px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.capt{
+    cursor: pointer;
+    position: absolute;
+    display: inline;
+    color: cornflowerblue;
+    font-size: 16pt;
+    margin-top: 270px;
+    margin-left: -120px;
+}
+table{
+    margin-left: 550px;
+    text-align:  center;
+    border: 1px solid black;
+}
+#riverImg{
+    width: 1000px;
+    height: 600px;
+}
+#counter{
+    width: 200px;
+    height: 180px;
+    background-color: gray;
+    color: snow;
+    margin-left: 565px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px silver;
+}
+#counter p{
+    font-size: 4em;
+}
+#increment, #decrement{
+    margin-top: 20px;
+    width: 96px;
+    height: 50px;
+    font-size: 22pt;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+#Qno1Form{
+    margin-left: 450px;
+    border: none;
+    font-size: 16pt;
+}
+#Qno1Form input{
+    border: 1px solid black;
+    font-size: 16pt;
+    text-align: left;
+}
+#formBtn{
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 270px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border: none;
+    outline: none;
+    font-size: 22pt;
+}
+#formBtn:hover{
+    background-color: cornsilk;
+    color: cornflowerblue;
+    border: 1px solid cornsilk;
+    transition: .5s;
+}
+.expandPara{
+    font-size: 16pt;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#stdTable{
+    margin-left: 200px;
+}
+#formEdit{
+    margin-left: 0px;
+    border: none;
+    font-size: 16pt;
+}
+#formEdit input{
+    border: 1px solid black;
+    font-size: 16pt;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#addData{
+    margin-left: 70px;
+    margin-top: 10px;
+    width: 270px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border: none;
+    outline: none;
+    font-size: 22pt;
+}
+#addData:hover{
+    background-color: cornsilk;
+    color: cornflowerblue;
+    border: 1px solid cornsilk;
+    transition: .5s;
+}
+#stdTable{
+    margin-top: 100px;
+    width: 800px;
+    margin-left: 0px;
+    font-size: 16pt;
+}
+#stdTable button, #editForm button{
+    width: 100px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border: none;
+    outline: none;
+    font-size: 12pt;
+}
+#editForm{
+    margin-top: -80px;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-left: 830px;
+    font-size: 16pt;
+}
+.slider, .slider img{
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+#openImg{
+    width: 950px;
+    height: 450px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -100px;
+}
+#openImg img{
+    width: 950px;
+    height: 450px;
+}
+#q2{
+    margin-top: 400px;
+}
+#paraForZoom{
+    font-size: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+.zoomBtn{
+    background-color: darkblue;
+    color: darkorange;
+    font-size: 16pt;
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+}
+#rendering{
+    font-size: 18pt;
+    color: darkorange;
+    background-color: darkorchid;
+}
